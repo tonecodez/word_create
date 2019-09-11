@@ -1,0 +1,11 @@
+Tony Dinh, Anders Bergquist
+
+1. Our program hosts 2 players and sends them a board with a given length and a time. They are then told to make words out of the given letters in the time limit and play until one user makes a mistake. The clients then play until they score 3 points. We will implement this with a fork() and by making sure the clients have 2 types of directions they can go based on what they receive from the server.
+
+2. Figuring out when to send the correct data and making sure the data is parsed correctly on both server and client sides.
+
+3. Man pages, stackoverflow, Tanzima
+
+4. https://www.geeksforgeeks.org/trie-insert-and-search/lank plan.txt
+
+5. We are going to work on Tuesdays, Wednesdays and Fridays. Saturdays if necessary.

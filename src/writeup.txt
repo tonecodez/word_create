@@ -1,0 +1,22 @@
+1. Tony Dinh, Anders Bergquist
+
+2. One thing that is not working in our code is shutting down both clients when
+one gets shut down. It only works when the first player shuts down, and becomes
+a bit buggy if the second player shuts down first. We believe that it is in our
+implementation of the game that made this harder than it shouldve been. Since
+only the primary player is sending anything to the server, we didn't know how to
+check if the secondary player was still connected to the server. This proved to
+be difficult. I believe that if we knew what we know now, we would have gone
+about structuring our program a lot better where it could give us the ability to
+expand a bit better. 
+
+3. We tested our code by playing a game with multiple users, and by printing out
+a lot of the information that was crucial to the gameplay to make sure that both
+client and server were receiving the correct data at each interval of the game.
+We also did different test cases, because most of the error came when we entered
+an incorrect word. 
+
+4. The most challenging part of this assignment was definitely ensuring that
+both client and server were receiving the correct data when they needed to. It
+was hard to sychronize the data and make sure that client and server were in the
+correct places in the game logic. 
